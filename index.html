@@ -13,13 +13,15 @@
 <body>
     <div class="container">
         <div class="header">
-            <button id="clearAll-btn">X</button>
+            <button id="clearAll-btn">Clear All</button>
             <div id="date">
             </div>
         </div>
         <div class="content">
-            <ul id="list">
-            </ul>
+            <ol id="list" start="1">
+                <li class="item">Sample Task<button class="done-btn" onclick="deleteTask()">✓</button></li>
+                <li class="item">Type in the field below.<button class="done-btn" onclick="deleteTask()">✓</button></li>
+            </ol>
             <div class="add-item">
                 <input type="text" id="input" placeholder="Add a To-do">
                 <button id="add-btn">+</button>
