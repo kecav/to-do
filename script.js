@@ -10,7 +10,7 @@ var d = new Date();
 
 setInterval(() => {
     date.innerHTML = week[d.getDay()] + ", " + d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear() + " " + d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
-}, 30000);
+}, 1000);
 
 clearAll.addEventListener('click', () => {
     list.innerHTML = "";
