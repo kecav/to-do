@@ -8,10 +8,11 @@
 
 body {
     height: 100vh;
-    background-color: antiquewhite;
+    background-color: #5d5ba3;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(137deg, #2925b5, #bf5454);
 }
 
 .container {
@@ -20,7 +21,7 @@ body {
     width: 25rem;
     border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 1rem 1rem 10rem 2rem rgb(0 0 0 / 0.25);
+    box-shadow: 1rem 2rem 2rem 0rem rgb(0 0 0 / 25%);
 }
 
 .header {
